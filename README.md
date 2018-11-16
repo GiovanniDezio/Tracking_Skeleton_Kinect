@@ -3,6 +3,8 @@ This repository contains codes about project to Virtual Reality exam of Departme
 
 I used Microsoft Kinect, Microsoft Kinect SDK V1.8, Framework .NET 4.0, Framework .NET 4.5 and Visual Studio 2015.
 
+This project has achievement to tracking skeleton using original Microsoft SDK V1.8.
+
 This project is developed by Giovanni Dezio.
 
 For any questions contact me on:
