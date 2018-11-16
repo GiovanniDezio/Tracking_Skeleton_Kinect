@@ -1,0 +1,23 @@
+﻿<Window x:Class="App2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Skeleton" Height="586" Width="618.619"
+        Icon="/App2;component/SingleFace.ico" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Closing="Closed">
+    <Grid Width="995" Margin="0,10,-503,9">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="86*"/>
+            <ColumnDefinition Width="247*"/>
+            <ColumnDefinition Width="389*"/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Grid.Column="2" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="262" Margin="36,65,0,0" Stroke="Black" VerticalAlignment="Top" Width="170"/>
+        <Image Height="287" HorizontalAlignment="Left" Margin="-46,18,0,0" x:Name="SkelView" Stretch="Fill" VerticalAlignment="Top" Width="410" Grid.ColumnSpan="3" />
+        <Label Height="58" HorizontalAlignment="Left" Margin="12,349,0,0" x:Name="ManoDestra" VerticalAlignment="Top" Width="471" FontSize="20" Grid.ColumnSpan="3" />
+        <Label Height="58" HorizontalAlignment="Left" Margin="12,461,0,0" x:Name="ManoSinistra" VerticalAlignment="Top" Width="471" FontSize="20" Grid.ColumnSpan="3" />
+        <Label Content="Coordinate Mano DX" Height="38" HorizontalAlignment="Left" Margin="12,305,0,0" x:Name="label1" VerticalAlignment="Top" Width="231" FontSize="20" />
+        <Label Content="Coordinate Mano SX" FontSize="20" Height="38" HorizontalAlignment="Left" Margin="12,417,0,0" x:Name="label2" VerticalAlignment="Top" Width="231" />
+        <Button x:Name="ScegliFile" Content="Scegli file ..." Grid.Column="2" HorizontalAlignment="Left" Margin="65,104,0,0" VerticalAlignment="Top" Width="120" Height="48" RenderTransformOrigin="-0.128,1.271" Click="ScegliFile_Click"/>
+        <ComboBox x:Name="comboBox" Grid.Column="2" HorizontalAlignment="Left" Margin="65,179,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Usa_Immagine" Content="Inserisci" Grid.Column="2" HorizontalAlignment="Left" Margin="65,234,0,0" VerticalAlignment="Top" Width="120" Click="Usa_Immagine_Click"/>
+    </Grid>
+</Window>
